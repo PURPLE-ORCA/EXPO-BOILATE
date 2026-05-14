@@ -24,6 +24,9 @@ export default function HomeScreen() {
           <Text variant="small" className="text-muted">
             Wire Convex auth after the screens are complete.
           </Text>
+          <Button onPress={() => router.push('/onboarding')} style={styles.button}>
+            Open onboarding wireframe
+          </Button>
           <Button onPress={() => router.push('/profile')} style={styles.button}>
             Open profile
           </Button>
