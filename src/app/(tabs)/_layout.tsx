@@ -1,8 +1,8 @@
 import { Tabs } from 'expo-router';
 import { Text } from 'react-native';
 
-function TabIcon({ icon, color }: { icon: string; color: string }) {
-  return <Text style={{ color, fontSize: 20, lineHeight: 22 }}>{icon}</Text>;
+function TabIcon({ icon, color }: { icon: string; color: any }) {
+  return <Text style={{ color: color as any, fontSize: 20, lineHeight: 22 }}>{icon}</Text>;
 }
 
 export default function TabsLayout() {

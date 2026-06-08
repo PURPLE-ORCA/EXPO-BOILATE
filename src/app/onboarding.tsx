@@ -37,7 +37,7 @@ const steps: OnboardingStep[] = [
 function WireCard({
   title,
   body,
-}: Pick<OnboardingStep, "title" | "body" | "chips">) {
+}: Pick<OnboardingStep, "title" | "body">) {
   return (
     <View className="gap-4 border border-border bg-card p-5 shadow-sm">
       <View className="gap-2">
